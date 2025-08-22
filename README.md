@@ -1,14 +1,12 @@
-
-
-```markdown
 # PCIe Gen3 Endpoint Verification Project
-
+---
 This repository demonstrates a **UVM-based verification environment** for a PCIe Gen3 x8 Endpoint IP.  
 The project covers transaction layer packet (TLP) handling, BAR decoding, flow control credits, MSI/MSI-X interrupt handling, and CDC scenarios.  
 It includes **DPI-C reference model integration**, **assertions (SVA)**, **functional coverage**, and **CI/CD automation with Jenkins**.  
+
+
 ```
-##  Repository Structure
-```
+
 async-fifo-cdc-uvm/
 ├─ README.md
 ├─ sim/
